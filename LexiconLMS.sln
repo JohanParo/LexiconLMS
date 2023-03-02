@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexiconLMS", "LexiconLMS\LexiconLMS.csproj", "{75836928-9E2D-470A-B8DE-791FF1F7E0C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05701A0F-C8B6-4C00-8C12-BF5931BC3BC9} = {05701A0F-C8B6-4C00-8C12-BF5931BC3BC9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexiconLMS.Shared", "LexiconLMS.Shared\LexiconLMS.Shared.csproj", "{05701A0F-C8B6-4C00-8C12-BF5931BC3BC9}"
 EndProject
